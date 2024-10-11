@@ -28,6 +28,9 @@ This is a C++ console-based implementation of the popular **Solitaire** card gam
 
 ### Interface
 - The game features an acceptable console interface displaying the tableau, stockpile, and foundation piles.
+- - **Suit Symbols**: The game uses **C's `stdio.h`** library to display the suit symbols (Hearts, Diamonds, Clubs, Spades) using Unicode characters.
+
+### Undo/Redo
 
 ### Undo/Redo
 - Players can undo and redo moves, with scoring adjustments for each action.
