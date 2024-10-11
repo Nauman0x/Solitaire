@@ -29,6 +29,12 @@ This is a C++ console-based implementation of the popular **Solitaire** card gam
 ### Interface
 - The game features an acceptable console interface displaying the tableau, stockpile, and foundation piles.
 - - **Suit Symbols**: The game uses **C's `stdio.h`** library to display the suit symbols (Hearts, Diamonds, Clubs, Spades) using Unicode characters.
+ 
+### Mouse Functionality
+- The game supports **mouse clicks** for moving cards between the tableau, foundation piles, and stockpile, offering an interactive and user-friendly experience.
+  - Clicking on a card will attempt to move it to a valid pile based on the game rules (foundation or tableau).
+  - **Cursor tracking** is used to capture mouse movements and clicks, allowing you to interact with the cards directly instead of relying on keyboard input.
+
 
 ### Undo/Redo
 
